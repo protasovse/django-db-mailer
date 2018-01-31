@@ -5,7 +5,7 @@ import os
 from django.contrib.contenttypes.models import ContentType
 from django.utils.translation import ugettext_lazy as _
 from django.shortcuts import redirect, render
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.conf.urls import url
 from django.contrib import messages
 from django.contrib import admin
